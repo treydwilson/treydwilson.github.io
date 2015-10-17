@@ -7,7 +7,8 @@ $(function() {
 		$('.block').height(length);
 		$('.block').width(length);
 		
-		var mc = new Hammer.Manager(document.getElementById('slider-container'));
+		//var mc = new Hammer.Manager(document.getElementById('slider-container'));
+		var mc = new Hammer.Manager(document.body);
 		
 		mc.on('rotatemove', function(ev) {
 			$('.color-one').addClass('color-two');
