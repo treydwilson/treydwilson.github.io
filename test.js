@@ -35,8 +35,8 @@
     var log = document.querySelector("#log");
     var el = document.querySelector("#hit");
 
-    var START_X = Math.round((window.innerWidth - el.offsetWidth) / 2);
-    var START_Y = Math.round((window.innerHeight - el.offsetHeight) / 2);
+    var START_X = Math.round((window.innerWidth - el.offsetWidth) / 2) - 100;
+    var START_Y = Math.round((window.innerHeight - el.offsetHeight) / 2)- 100;
 
     var ticking = false;
     var transform;
