@@ -192,8 +192,8 @@
 	
     var el2 = document.querySelector("#hit2");
 
-    var START_X2 = Math.round((window.innerWidth - el2.offsetWidth) / 2) + 100;
-    var START_Y2 = Math.round((window.innerHeight - el2.offsetHeight) / 2) + 100;
+    var START_X2 = Math.round((window.innerWidth - el2.offsetWidth) / 2) - 50;
+    var START_Y2 = Math.round((window.innerHeight - el2.offsetHeight) / 2) - 50;
 
     var ticking2 = false;
     var transform2;
